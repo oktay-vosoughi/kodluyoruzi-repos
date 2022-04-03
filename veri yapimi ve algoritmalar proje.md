@@ -1,4 +1,4 @@
-# patika kodluyoruz veri ayapimi ve algoritma ders serisi
+# patika kodluyoruz veri yapimi ve algoritma ders serisi
 - insertion sort steps for this list
 ```
 [22,27,16,2,18,6]
