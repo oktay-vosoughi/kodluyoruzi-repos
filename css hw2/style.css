@@ -65,3 +65,7 @@ section {
     background-color: rgb(40, 134, 134);
     width: 35%;
 }
+
+.copyright {
+    margin: 60px;
+}
