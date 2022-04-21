@@ -37,7 +37,7 @@ CSS RESET KODLARI BİTİŞ
         margin: 10px;
     }
     
-    .headerLiItema:hover {
+    .headerLiItem a:hover {
         border-bottom: 1px solid white;
         transform: scale(1.2) rotate(35deg);
     }
