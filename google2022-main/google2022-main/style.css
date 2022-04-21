@@ -1,0 +1,102 @@
+    /**********
+
+ CSS RESET KODLARI BAŞLANGIÇ 
+
+ **********/
+    
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        list-style: none;
+        text-decoration: none;
+        color: white;
+    }
+    /********** 
+
+CSS RESET KODLARI BİTİŞ 
+
+**********/
+    /* Üst kısımda bulunan sayfanın tamamını kaplayan kutu */
+    
+    body {
+        background-image: url("./img/image-from-rawpixel-id-2331715-jpeg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .headerList {
+        display: flex;
+        justify-content: right;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 18px;
+        padding-top: 2px;
+    }
+    
+    .headerLiItem {
+        margin: 10px;
+    }
+    
+    .headerLiItema:hover {
+        border-bottom: 1px solid white;
+        transform: scale(1.2) rotate(35deg);
+    }
+    
+    .signIn {
+        background-color: rgb(117, 64, 3);
+        color: rgb(233, 222, 222);
+        border-radius: 100%;
+        padding: 3px 6px;
+    }
+    /* search area and google img */
+    
+    .section {
+        text-align: center;
+        height: 335px;
+        margin: 200px 0 0 0;
+    }
+    
+    .google {
+        width: 272px;
+        height: 92px;
+        margin: 0 auto;
+    }
+    
+    .searchbox {
+        position: relative;
+    }
+    
+    .mic {
+        color: black;
+        background-color: aliceblue;
+        position: absolute;
+        right: 450px;
+        top: 23px;
+    }
+    
+    .search {
+        color: black;
+        background-color: aliceblue;
+        position: absolute;
+        left: 430px;
+        top: 23px;
+    }
+    
+    .searchbar {
+        width: 40%;
+        height: 40px;
+        margin: 10px auto;
+        border: 1px solid black;
+        border-radius: 20px;
+        color: rgb(219, 214, 214);
+        padding: 0 20px 0 50px;
+        /* position: relative; */
+    }
+    
+    .shortcut {
+        color: black;
+        border-radius: 50%;
+        padding: 20px;
+        background-color: rgb(219, 214, 214);
+    }
+    /******** AŞAĞI KISIMLAR ********/
